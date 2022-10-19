@@ -96,3 +96,16 @@ const gradient = [
 function getRandomColor() {
     return gradient[Math.floor(Math.random() * gradient.length)];
 }
+
+//автонажатие на шарики - чит код(вводить через терминал)
+function winTheGame() {
+    function kill() {
+        const circle = document.querySelector('.circle');
+
+        if(circle) {
+            circle.click();
+        }
+    }
+
+    setInterval(kill, 1);
+}
