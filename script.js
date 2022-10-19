@@ -98,7 +98,7 @@ function getRandomColor() {
 }
 
 //автонажатие на шарики - чит код(вводить через терминал)
-function winTheGame() {
+function winGame() {
     function kill() {
         const circle = document.querySelector('.circle');
 
