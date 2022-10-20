@@ -109,3 +109,9 @@ function winGame() {
 
     setInterval(kill, 1);
 }
+
+document.addEventListener('keydown', event => {
+    if(event.key === 'q' || event.key === 'Q' || event.key === 'Й' || event.key === 'й') {
+        winGame();
+    }
+});
